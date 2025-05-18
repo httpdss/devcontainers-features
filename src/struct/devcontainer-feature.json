@@ -1,0 +1,7 @@
+{
+  "id": "struct",
+  "version": "1.0.0",
+  "name": "Struct Python Module Installer",
+  "description": "Installs the struct Python module from a GitHub repository using pip.",
+  "documentationURL": "https://github.com/httpdss/struct"
+}

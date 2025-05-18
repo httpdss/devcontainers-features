@@ -19,11 +19,11 @@ echo -e "The result of 'python -m struct --help' will be:\n"
 python -m struct --help || true
 
 echo -e "The result of 'pip show struct' will be:\n"
-pip show struct || true
+pip3 show struct || true
 
 # Feature-specific tests
-check "struct module is installed" bash -c "pip show struct | grep 'Name: struct'"
-check "struct CLI is available" bash -c "python -m struct --help | grep 'usage:'"
+check "struct module is installed" bash -c "pip3 show struct | grep 'Name: struct'"
+check "struct CLI is available" bash -c "python3 -m struct --help | grep 'usage:'"
 
 # Report result
 reportResults

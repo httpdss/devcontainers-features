@@ -1,25 +1,20 @@
-# Struct Devcontainer Feature
 
-This feature installs the `struct` Python module from the official GitHub repository using pip.
+# Struct Python Module Installer (struct)
 
-## Usage
+Installs the struct Python module from a GitHub repository using pip.
 
-Add the following to your `devcontainer.json`:
+## Example Usage
 
 ```json
 "features": {
-  "ghcr.io/your-org/devcontainers-features/struct:1.0.0": {}
+    "ghcr.io/httpdss/devcontainers-features/struct:1": {}
 }
 ```
 
-## What it does
 
-- Installs the `struct` Python module from https://github.com/httpdss/struct.git using pip.
 
-## Requirements
 
-- Python and pip must be available in the container.
 
-## Source
+---
 
-- [struct GitHub repository](https://github.com/httpdss/struct)
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/httpdss/devcontainers-features/blob/main/src/struct/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

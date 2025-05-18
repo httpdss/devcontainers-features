@@ -23,7 +23,7 @@ pip3 show struct || true
 
 # Feature-specific tests
 check "struct module is installed" bash -c "pip3 show struct | grep 'Name: struct'"
-check "struct CLI is available" bash -c "python3 -m struct --help | grep 'usage:'"
+check "struct CLI is available" bash -c "struct list | grep 'Listing'"
 
 # Report result
 reportResults

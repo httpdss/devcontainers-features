@@ -3,4 +3,4 @@
 set -e
 
 # Install struct Python module from GitHub using pip
-pip install --no-cache-dir git+https://github.com/httpdss/struct.git
+pip3 install --no-cache-dir git+https://github.com/httpdss/struct.git
